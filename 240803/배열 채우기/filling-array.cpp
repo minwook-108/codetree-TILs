@@ -6,12 +6,12 @@ int main() {
     int cnt=-1;
     for(int i=0;i<10;i++){
         cin >> arr[i];
-        cnt++;
         if(arr[i]==0){
             break;
         }
+        cnt++;
     }
-    for(int i=cnt-1;i>=0;i--){
+    for(int i=cnt;i>=0;i--){
         cout << arr[i] << " ";
     }
     return 0;
