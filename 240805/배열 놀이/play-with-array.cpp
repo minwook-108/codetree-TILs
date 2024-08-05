@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n,q, q1,a,b,s,e,idx=-1;
+    int n,q, q1,a,b,s,e;
     cin >> n >> q;
     int arr[100];
     for(int i=0;i<n;i++){
@@ -20,12 +20,16 @@ int main() {
         }
         else if(q1==2){
             cin >> b;
+            int idx=-1;
             for(int j=0;j<n;j++){
                 if(arr[j]==b){
                     idx=j;
                     cout << j+1 << endl;
                     break;
                 }
+            }
+            if(idx==-1){
+                cout << "0" << endl;
             }
         }
         else{
