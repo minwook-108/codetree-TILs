@@ -7,12 +7,8 @@ int main() {
     cin >> n >> m;
     for(int i=0;i<m;i++){
         cin >> a >> b;
-        if(i==0){
-            arr[a][b] = 1;
-        }
-        else{
-            arr[a][b] = a*b;
-        }
+        arr[a][b] = a*b;
+      
     }
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
