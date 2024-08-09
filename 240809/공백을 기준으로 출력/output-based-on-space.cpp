@@ -13,6 +13,7 @@ int main() {
             for(int j=i;j<a.length()-1;j++){
                 a[j]=a[j+1];
             }
+            i--;
         }
     }
     for(int i=0;i<b.length();i++){
@@ -21,6 +22,7 @@ int main() {
             for(int j=i;j<b.length()-1;j++){
                 b[j]=b[j+1];
             }
+            i--;
         }
     }
     for(int i=0;i<a.length()-cnt1;i++){
