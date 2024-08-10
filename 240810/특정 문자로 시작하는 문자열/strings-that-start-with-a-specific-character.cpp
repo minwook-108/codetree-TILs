@@ -18,8 +18,9 @@ int main() {
             sum+=arr[i].length();
         }
     }
+    cout << cnt << " ";
     cout << fixed;
     cout.precision(2);
-    cout << cnt << " " << (double)(sum/cnt);
+    cout << (double)(sum/cnt);
     return 0;
 }
