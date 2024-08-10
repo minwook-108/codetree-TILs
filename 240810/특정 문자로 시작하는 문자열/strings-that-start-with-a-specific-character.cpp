@@ -19,8 +19,9 @@ int main() {
         }
     }
     cout << cnt << " ";
+    double avg = (double)sum/cnt;
     cout << fixed;
     cout.precision(2);
-    cout << (double)(sum/cnt);
+    cout << avg;
     return 0;
 }
