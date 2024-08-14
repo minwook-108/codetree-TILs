@@ -9,7 +9,7 @@ void Print(int n,int m){
         k=n;
     }
     int result;
-    for(int i=2;i<=n;i++){
+    for(int i=1;i<=n;i++){
         if(n%i==0 && m%i==0){
             result = i;
         }
