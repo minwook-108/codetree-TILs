@@ -12,7 +12,7 @@ bool Check(int i){
 int Count(int a, int b){
     int sum=0;
     for(int i=a;i<=b;i++){
-        if(Check(i)){
+        if(Check(i) && i!=1){
             sum+=i;
         }
     }
