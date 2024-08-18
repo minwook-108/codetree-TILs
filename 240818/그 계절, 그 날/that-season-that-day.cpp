@@ -75,7 +75,7 @@ int Print(int y, int M, int D){
             else if(D>=1 && D<=30 && (M==6)){
                 return 2;
             }
-            else if(D>=1 && D<=30 && (M==11)){
+            else if(D>=1 && D<=30 && (M==11 || M==9)){
                 return 3;
             }
             else{
