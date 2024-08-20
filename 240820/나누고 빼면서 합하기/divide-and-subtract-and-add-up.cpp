@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int Print(int arr[], int m){
-    int sum=m;
+    int sum=arr[m-1];
     while(m!=1){
         if(m%2==0){
             m/=2;
@@ -9,7 +9,7 @@ int Print(int arr[], int m){
         else{
             m-=1;
         }
-        sum+=arr[m];
+        sum+=arr[m-1];
     }
     return sum;
 }
