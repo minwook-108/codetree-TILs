@@ -19,6 +19,9 @@ int GCD(int a, int b){
     return max;
 }
 int LCD(int a[],int n){
+    if(n==1){
+        return a[0];
+    }
     if(n==2){
         return (a[n-1]*a[n-2])/GCD(a[n-1],a[n-2]);
     }
