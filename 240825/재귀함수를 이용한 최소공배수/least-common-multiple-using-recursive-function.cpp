@@ -11,7 +11,7 @@ int GCD(int a, int b){
     }
     else{
         for(int i=1;i<=a;i++){
-            if(b%i==0 && b%i==0){
+            if(b%i==0 && a%i==0){
                 max=i;
             }
         }
